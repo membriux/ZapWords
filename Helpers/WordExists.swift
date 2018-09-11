@@ -13,8 +13,6 @@ struct WordChecker {
     
     static func wordExists(wordGiven: String) -> Bool {
         // Check if word exists
-        print("Checking word:", wordGiven.lowercased())
-        print()
         if UD.dictionary![wordGiven.lowercased()] != nil {
             return true
         } else {

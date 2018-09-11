@@ -15,12 +15,11 @@ class GameViewController: UIViewController, UITextFieldDelegate {
     var randomLetter: String = LetterGenerator.generate()
     var wordsUsed: [String] = []
     var words: String = "Words Used: " // Delete this later
-    var gameInt = 60
+    var gameInt = 10
     var gameTimer = Timer()
     var totalScore: Int = 0
-//    var wordChecker: WordChecker = WordChecker()
-    @IBOutlet weak var scoreLabel: UILabel!
     
+    @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var resultLabel: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var letterLabel: UILabel!
