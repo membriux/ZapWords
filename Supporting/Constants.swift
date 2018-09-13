@@ -16,5 +16,7 @@ struct UD {
     static var dictionary = defaults.dictionary(forKey: "dictionary")
     static var thesaurus = defaults.dictionary(forKey: "thesaurus")
     
+    static var scores = defaults.dictionary(forKey: "localscores") ?? [:]
+    
 }
 

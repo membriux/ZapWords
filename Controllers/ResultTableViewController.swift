@@ -56,9 +56,9 @@ class ResultTableViewController: UIViewController {
     
     func submitToLeaderBoard() {
         let userName = nameInputTextField.text ?? ""
-        let userScore = String(score)
+        let userScore = score
         
-        LocalScores.scores[userName] = userScore
+        UD.scores[userName] = userScore
     }
     
 }
@@ -107,8 +107,6 @@ extension ResultTableViewController {
             } else {
                 synonyms[word] = synonymText
             }
-            
-            print("Synonyms dictionary:", synonymsArray )
             
             tableView.reloadData()
         }
