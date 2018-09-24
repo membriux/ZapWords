@@ -35,11 +35,9 @@ class ResultTableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         tableView.reloadData()
         scoreLabel.text = String(score)
         getSynonyms()
-        
         
     }
     
@@ -48,6 +46,8 @@ class ResultTableViewController: UIViewController {
         submitScoreButton.backgroundColor = UIColor.lightGray
         submitScoreButton.setTitle("Submitted!", for: .normal)
         submitToLeaderBoard()
+        nameInputTextField.text = ""
+        nameInputTextField.isEnabled = false
         
     }
     

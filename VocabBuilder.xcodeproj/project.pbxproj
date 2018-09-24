@@ -136,6 +136,7 @@
 		BB4C498B20FD1AF9004524A4 = {
 			isa = PBXGroup;
 			children = (
+				BB4C49A120FD1AFB004524A4 /* Assets.xcassets */,
 				BB4C499620FD1AF9004524A4 /* VocabBuilder */,
 				BBA7A8A2210253C1009A10E8 /* Dictionary */,
 				BB71F95C21013A130092E2F7 /* Models */,
@@ -145,7 +146,6 @@
 				8D9CEC1F20FD1E0600BD4D86 /* Helpers */,
 				8D9CEC1E20FD1DFB00BD4D86 /* Views */,
 				BB63BB9220FD1BE300C3D363 /* Storyboards */,
-				BB4C49A120FD1AFB004524A4 /* Assets.xcassets */,
 				BB4C499520FD1AF9004524A4 /* Products */,
 				0019D603D54A76845252D1DE /* Pods */,
 				EA9E16F915E6FAE7FA099DA1 /* Frameworks */,
@@ -248,6 +248,7 @@
 				TargetAttributes = {
 					BB4C499320FD1AF9004524A4 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -518,8 +519,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "vocab-builder.team.memo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -540,8 +541,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "vocab-builder.team.memo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
