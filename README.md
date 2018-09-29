@@ -72,7 +72,6 @@ Users will open the app and will start the game by getting a random letter and u
 * Logic for checking previously used words and refactored the code.
 * Added timer to the Home View and Game View Controller
 * Able to communicate with the oxford dictionary API
-*  
 
 **Wednesday:**
 * Main funcionality of the game is working
